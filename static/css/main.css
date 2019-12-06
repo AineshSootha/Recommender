@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+    #secondary { width:30%; margin-left:3%;}
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
@@ -14,7 +14,7 @@ body{
     background: #00B4DB;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
 }
 #header{
     text-align: center;
@@ -29,8 +29,53 @@ body{
 .container{
     background-color: #f0fcff;
     width: 70vw;
-    height:60vh;
+    padding-bottom:5vh;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 75, 92, 0.5);
-  
+
 }
+.bookmovie{
+    background-color: #00B4DB;
+    border-color:#0083B0;
+}
+.bookmovie:hover{
+    background-color: #00B4DB;
+    border-color:#0083B0;
+}
+.bookmovie.active{
+    background-color: rgb(0, 92, 112)!important;
+    border-color:#0083B0!important;
+}
+.poster{
+    height:20vh;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+}
+footer h4{
+    color:#fff;
+    font-size:10px;
+}
+.mainsubmit {
+    background: transparent;
+    width: 200px;
+    position: relative;
+    padding: 15px;
+    color: #0083B0;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    border-radius: 4px;
+    font-weight: 600;
+    overflow: hidden;
+    border: 2px solid #0083B0;
+    text-decoration: none;
+  }
