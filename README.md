@@ -2,7 +2,6 @@
 
 [aineshsootha.pythonanywhere.com](https://aineshsootha.pythonanywhere.com/)(live version)
 
-# ENGR-133 Final Project
 
 ## Ainesh Sootha
 
