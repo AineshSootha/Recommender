@@ -1,7 +1,5 @@
 # Recommendation System
 
-[aineshsootha.pythonanywhere.com](https://aineshsootha.pythonanywhere.com/)(live version)
-
 
 ## Ainesh Sootha
 
