@@ -226,7 +226,7 @@ def findMoviesCast(castlist,title):
 #It requires the title of the movie
 def findPoster(title):
     #This uses the requests module to get the JSON data from the OMDb API
-    detailsList = requests.get(url=f'http://www.omdbapi.com/?apikey=477f0f4c&t={title}')
+    detailsList = requests.get(url=f'http://www.omdbapi.com/?apikey={}={title}')
     data=detailsList.json()
     #The JSON data is converted to a dict and the the poster link is returned
     posterlink=data['Poster']
